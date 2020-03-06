@@ -1,0 +1,15 @@
+<!ELEMENT listetudiants (etudiant*)>
+<!ELEMENT etudiant (profil)>
+<!ELEMENT profil (matricule,nom,prenom,moyennes,credits,uniteaqu,mention)>
+<!ELEMENT moyennes (moyS1,moyS2,moyAnnuel)>
+<!ELEMENT credits (creditS1,creditS2)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT prenom (#PCDATA)>
+<!ELEMENT matricule (#PCDATA)>
+<!ELEMENT moyS1 (#PCDATA)>
+<!ELEMENT moyS2 (#PCDATA)>
+<!ELEMENT creditS1 (#PCDATA)>
+<!ELEMENT creditS2 (#PCDATA)>
+<!ELEMENT moyAnnuel (#PCDATA)>
+<!ELEMENT uniteaqu (#PCDATA)>
+<!ELEMENT mention (#PCDATA)>

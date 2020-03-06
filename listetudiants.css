@@ -1,0 +1,35 @@
+listetudiants { background-color: #f3dbd5; }
+
+etudiant { display:table;
+        font-size: 30px;
+		font-family: 'Righteous', cursive;
+		color: #00000;
+		text-shadow: 1px 1px 0 #000, margin: 10px 0 24px;
+		line-height: 50px;
+}
+
+
+moyennes{display:table;
+          color:#628c7d;
+		  font-size:20px;
+}
+moyS1{padding:10px;}
+moyS2{padding:5px;}
+moyAnnuel{padding:5px;}
+
+credits{display:inline;
+	font-size:20px;
+	color:#628c7d;
+}
+creditS1{padding:10px;}
+creditS2{padding:5px;}
+uniteaqu{
+	font-size:20px;
+	color:#628c7d;
+	padding-right:5px;
+}
+mention{
+	font-size:20px;
+	color:#628c7d;
+}
+
